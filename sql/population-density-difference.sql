@@ -1,9 +1,11 @@
--- JAPANESE CITIES NAME
+-- Query the difference between the maximum and minimum populations in CITY.
 
--- Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+-- Input Format
+
 -- The CITY table is described as follows:
 
---             CITY
+--          City
+
 -- +-------------+------------+
 -- | Field       |   Type     |
 -- +-------------+------------+
@@ -14,5 +16,5 @@
 -- | POPULATION  | NUMBER     |
 -- +-------------+------------+
 
-SELECT name FROM city
-WHERE countrycode = 'JPN'
+SELECT MAX(POPULATION) - MIN(POPULATION)
+FROM CITY

@@ -4,7 +4,14 @@
 -- The Employee table containing employee data for a company is described as follows:
 -- where employee_id is an employee's ID number, name is their name, months is the total number of months they've been working for the company, and salary is their monthly salary.
 
-
+-- +-------------+-------------+
+-- |    Column   |     Type    |
+-- +-------------+-------------+
+-- | EMPLOYEE_ID |    NUMBER   |
+-- |     NAME    |   VARCHAR2  |
+-- |    MONTHS   |   VARCHAR2  |
+-- |    SALARY   |    NUMBER   |
+-- +-------------+-------------+
 
 SELECT Employee.name FROM Employee
 ORDER BY Employee.name

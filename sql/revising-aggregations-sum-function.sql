@@ -1,6 +1,9 @@
--- JAPANESE CITIES NAME
+-- Revising Aggregations - The Sum Function
 
--- Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+-- Query the total population of all cities in CITY where District is California.
+
+-- Input Format
+
 -- The CITY table is described as follows:
 
 --             CITY
@@ -14,5 +17,5 @@
 -- | POPULATION  | NUMBER     |
 -- +-------------+------------+
 
-SELECT name FROM city
-WHERE countrycode = 'JPN'
+SELECT Sum(population) from city
+where district = 'California'

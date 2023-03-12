@@ -1,9 +1,13 @@
--- JAPANESE CITIES NAME
+-- Revising Aggregations - The Count Function
 
--- Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+-- Query a count of the number of cities in CITY having a Population larger than 100.000.
+
+-- Input Format
+
 -- The CITY table is described as follows:
 
---             CITY
+--          City
+
 -- +-------------+------------+
 -- | Field       |   Type     |
 -- +-------------+------------+
@@ -14,5 +18,6 @@
 -- | POPULATION  | NUMBER     |
 -- +-------------+------------+
 
-SELECT name FROM city
-WHERE countrycode = 'JPN'
+
+SELECT count(*) FROM city
+WHERE population > 100000
