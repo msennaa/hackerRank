@@ -17,8 +17,6 @@ As pastas estão separadas de acordo com as modalidades do Hacker Rank.
 
 </details>
 
-# Conquistas
-
 <details>
   <summary>
     <strong>🏅 Insígnias</strong>
