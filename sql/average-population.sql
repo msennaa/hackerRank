@@ -1,10 +1,13 @@
--- JAPANESE CITIES NAME
+-- Japan Population
 
--- Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+-- Query the average population for all cities in CITY, rounded down to the nearest integer.
+
+-- Input Format
+
 -- The CITY table is described as follows:
 
---             CITY
--- +-------------+------------+
+--          City
+
 -- | Field       |   Type     |
 -- +-------------+------------+
 -- | ID          | NUMBER     |
@@ -14,5 +17,4 @@
 -- | POPULATION  | NUMBER     |
 -- +-------------+------------+
 
-SELECT name FROM city
-WHERE countrycode = 'JPN'
+SELECT FLOOR(AVG(POPULATION)) FROM CITY

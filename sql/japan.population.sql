@@ -1,9 +1,13 @@
--- JAPANESE CITIES NAME
+-- Japan Population
 
--- Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+-- Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN.
+
+-- Input Format
+
 -- The CITY table is described as follows:
 
---             CITY
+--          City
+
 -- +-------------+------------+
 -- | Field       |   Type     |
 -- +-------------+------------+
@@ -14,5 +18,5 @@
 -- | POPULATION  | NUMBER     |
 -- +-------------+------------+
 
-SELECT name FROM city
-WHERE countrycode = 'JPN'
+SELECT SUM(POPULATION) FROM CITY
+WHERE COUNTRYCODE = 'JPN'
