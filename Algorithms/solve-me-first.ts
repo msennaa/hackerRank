@@ -1,3 +1,3 @@
-function solveMeFirst(a:number, b:number) {
+function solveMeFirst(a:number, b:number):number {
     return a + b;
   }
