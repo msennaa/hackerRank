@@ -4,7 +4,7 @@ O objetivo do repositório é guardar separadamente todos os desáfios que eu re
 As pastas estão separadas de acordo com as modalidades do Hacker Rank.
 
 ---
-# Orientações
+# Sobre o projeto
 
 <details>
   <summary>
