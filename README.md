@@ -1,6 +1,6 @@
 # Boas-vindas ao repositório HackerRank!
 
-O objetivo do repositório é guardar separadamente todos os desáfios que eu realizei na plataforma [Hacker Rank](https://www.hackerrank.com).
+O objetivo do repositório é guardar separadamente todos os desáfios que realizados por mim na plataforma [Hacker Rank](https://www.hackerrank.com).
 As pastas estão separadas de acordo com as modalidades do Hacker Rank.
 
 ---
