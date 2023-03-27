@@ -1,8 +1,8 @@
-function catAndMouse(x, y, z) {
+function catAndMouse(x: number, y: number, z: number) {
     const distanceA = Math.abs(x - z);
     const distanceB = Math.abs(y - z);
     if (distanceA < distanceB) {
-       return 'Cat A'
+        return 'Cat A'
     } else if (distanceA > distanceB) {
         return 'Cat B'
     } else {
