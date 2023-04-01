@@ -1,4 +1,4 @@
-function breakingRecords(scores) {
+function breakingRecords(scores: number[]) {
     let maxScore = scores[0];
     let minScore = scores[0];
     let maxRecord = 0;
