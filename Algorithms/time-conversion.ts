@@ -1,6 +1,6 @@
-function timeConversion(s) {
+function timeConversion(s:string) {
     let amPm = s.charAt(8);
-    let militaryHour = "";
+    let militaryHour: number | string = "";
     if (amPm == "A") {
         if(s.substring(0,2) == "12") {
             militaryHour = "00"
