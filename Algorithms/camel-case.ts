@@ -1,4 +1,4 @@
-function camelcase(s) {
+function camelcase(s: string) {
     let total = 1;
     for(let index = 0; index < s.length; index += 1) {
         if(s[index] === s[index].toUpperCase()) {
@@ -9,4 +9,4 @@ function camelcase(s) {
 
 }
 
-console.log(camelcase('camelCaseDentroDaEvoquePrata'));
+console.log(camelcase('saveChangesInTheEditor'));
