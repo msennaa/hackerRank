@@ -24,7 +24,7 @@ As pastas estão separadas de acordo com as modalidades do Hacker Rank.
   
   - **MySql 🥇**
   
-  - **Problem Solving 🥉**
+  - **Problem Solving 🥈**
 
 </details>
 
